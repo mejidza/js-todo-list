@@ -1,0 +1,146 @@
+ body {
+    background: rgb(69,93,167) no-repeat;
+background: linear-gradient(90deg, rgba(69,93,167,1) 0%, rgba(70,61,142,1) 50%, rgba(73,33,121,1) 100%) no-repeat;
+    height: 812px;
+    font-family: 'Roboto', sans-serif;
+}
+.title-text {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: white;
+    text-shadow:
+      0 0 10px #fff,
+      0 0 350px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff;
+}
+.todo-create-container {
+    display: flex;
+    justify-content: center;
+}
+.todo-text-enter {
+    border-radius: 20px;
+    padding: 25px;
+    width: 600px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.todo-text-button {
+    border-radius: 20px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: -40px;
+    background-color: #fff;
+}
+.todo-selector {
+    color: rgba(73,33,121,1);
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 200px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.button-image {
+    padding-right: 10px;
+    width: 60px;
+    height: 45px;
+}
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.todo-list-item {
+    padding: 25px;
+    width: 762px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.confirm-image {
+    display: flex;
+    padding-right: 20px;
+    width: 50px;
+    height: 35px;
+    
+}
+.todo-item-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.delete-image {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    padding-right: 40px;
+}
+.selector-item {
+    color: rgba(73,33,121,1);
+}
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.todo-item-list {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 860px;
+}
+.todo-list {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.todo-delete-button {
+  margin-right: -50px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.todo-confirm-button {
+    margin-right: -20px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.todo-item-text {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    font-size: 20px;
+}
