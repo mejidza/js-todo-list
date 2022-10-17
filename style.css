@@ -1,8 +1,8 @@
  body {
     background: rgb(69,93,167) no-repeat;
-background: linear-gradient(90deg, rgba(69,93,167,1) 0%, rgba(70,61,142,1) 50%, rgba(73,33,121,1) 100%) no-repeat;
-    height: 812px;
+    background: linear-gradient(90deg, rgba(69,93,167,1) 0%, rgba(70,61,142,1) 50%, rgba(73,33,121,1) 100%) no-repeat;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 .title-text {
     margin-bottom: 100px;
@@ -28,7 +28,7 @@ background: linear-gradient(90deg, rgba(69,93,167,1) 0%, rgba(70,61,142,1) 50%, 
 .todo-text-enter {
     border-radius: 20px;
     padding: 25px;
-    width: 600px;
+    width: 820px;
     outline: none;
     border: none;
     font-size: 20px;
@@ -143,4 +143,8 @@ background: linear-gradient(90deg, rgba(69,93,167,1) 0%, rgba(70,61,142,1) 50%, 
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
     font-size: 20px;
+}
+.done-todo {
+    text-decoration: line-through;
+    color: grey;
 }
